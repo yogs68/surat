@@ -1,0 +1,47 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="150" y1="60" x2="740" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" stop-opacity="0.14"/>
+      <stop offset="0.6" stop-color="#10B981" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#F43F5E" stop-opacity="0.10"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="900" height="520" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect x="70" y="40" width="760" height="440" rx="48" fill="url(#g)"/>
+  <g filter="url(#shadow)">
+    <rect x="240" y="120" width="420" height="280" rx="34" fill="white" fill-opacity="0.78"/>
+  </g>
+
+  <!-- Tray -->
+  <g>
+    <path d="M330 292C330 275.431 343.431 262 360 262H540C556.569 262 570 275.431 570 292V318C570 334.569 556.569 348 540 348H360C343.431 348 330 334.569 330 318V292Z" fill="#111827" fill-opacity="0.90"/>
+    <path d="M352 292H548V316C548 325.941 539.941 334 530 334H370C360.059 334 352 325.941 352 316V292Z" fill="white" fill-opacity="0.08"/>
+    <path d="M403 290C403 282.268 409.268 276 417 276H483C490.732 276 497 282.268 497 290V292H403V290Z" fill="white" fill-opacity="0.16"/>
+  </g>
+
+  <!-- Paper -->
+  <g>
+    <rect x="392" y="174" width="116" height="142" rx="18" fill="white" fill-opacity="0.94"/>
+    <rect x="410" y="200" width="80" height="10" rx="5" fill="#111827" fill-opacity="0.35"/>
+    <rect x="410" y="222" width="64" height="8" rx="4" fill="#111827" fill-opacity="0.25"/>
+    <rect x="410" y="240" width="72" height="8" rx="4" fill="#111827" fill-opacity="0.25"/>
+    <rect x="410" y="272" width="54" height="8" rx="4" fill="#111827" fill-opacity="0.18"/>
+    <circle cx="478" cy="288" r="10" fill="#10B981" fill-opacity="0.85"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g opacity="0.75">
+    <path d="M210 210l10 22 22 10-22 10-10 22-10-22-22-10 22-10 10-22z" fill="#6366F1"/>
+    <path d="M690 200l8 18 18 8-18 8-8 18-8-18-18-8 18-8 8-18z" fill="#F43F5E"/>
+  </g>
+
+  <text x="450" y="430" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="20" fill="#111827" fill-opacity="0.75">
+    Inbox kamu masih kosong
+  </text>
+  <text x="450" y="458" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="14" fill="#111827" fill-opacity="0.55">
+    Buat surat baru atau cek filter pencarian.
+  </text>
+</svg>

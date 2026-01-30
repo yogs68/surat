@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4472C4;
+            color: white;
+            font-weight: bold;
+        }
+        .header-section {
+            margin-bottom: 20px;
+        }
+        .header-section td {
+            border: none;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Info -->
+    <table class="header-section">
+        <tr>
+            <td><strong>EXPORT DATA SURAT - SISTEM APPROVAL</strong></td>
+        </tr>
+        <tr>
+            <td>Periode: 01 January 2026 s/d 27 January 2026</td>
+        </tr>
+        <tr>
+            <td>Export Date: 27 January 2026 07:30:39</td>
+        </tr>
+        <tr>
+            <td>Exported By: Auditor (Auditor)</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    
+    <!-- SHEET 1: Raw Data Surat -->
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nomor Surat</th>
+                <th>Perihal</th>
+                <th>Pembuat</th>
+                <th>Urgency</th>
+                <th>Deadline</th>
+                <th>Status</th>
+                <th>Tanggal Submit</th>
+                <th>Tanggal Update</th>
+                <th>Durasi Proses (Hari)</th>
+            </tr>
+        </thead>
+        <tbody>
+                                                                <tr>
+                        <td>1</td>
+                        <td>003/SRT/01/2026</td>
+                        <td>Pembelian Karpet Lapangan Badminton</td>
+                        <td>Staff Bidang 1</td>
+                        <td>URGENT</td>
+                        <td>27/01/2026 08:40</td>
+                        <td>Disetujui</td>
+                        <td>24/01/2026 14:40</td>
+                        <td>24/01/2026 14:44</td>
+                        <td>0</td>
+                    </tr>
+                                    <tr>
+                        <td>2</td>
+                        <td>002/SRT/01/2026</td>
+                        <td>pengajuan beli shuttlecock</td>
+                        <td>Staff Bidang 1</td>
+                        <td>NORMAL</td>
+                        <td>31/01/2026 14:32</td>
+                        <td>Disetujui</td>
+                        <td>23/01/2026 22:48</td>
+                        <td>23/01/2026 22:55</td>
+                        <td>0</td>
+                    </tr>
+                                    <tr>
+                        <td>3</td>
+                        <td>001/SRT/01/2026</td>
+                        <td>Pengajuan Beli Alat Gym</td>
+                        <td>Staff Bidang 1</td>
+                        <td>NORMAL</td>
+                        <td>31/01/2026 14:32</td>
+                        <td>Menunggu Waketum 3</td>
+                        <td>23/01/2026 22:45</td>
+                        <td>23/01/2026 22:45</td>
+                        <td>3</td>
+                    </tr>
+                                    </tbody>
+    </table>
+    
+    <br><br>
+    
+    <!-- SHEET 2: Summary KPI -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" style="background-color: #70AD47;">SUMMARY - KEY PERFORMANCE INDICATORS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Total Surat</strong></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td><strong>Average Process Time</strong></td>
+                <td>0 hari</td>
+            </tr>
+            <tr>
+                <td><strong>On-Time Rate</strong></td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td><strong>Overdue Rate</strong></td>
+                <td>0%</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br><br>
+    
+    <!-- SHEET 3: Avg per Tahap -->
+        <table>
+        <thead>
+            <tr>
+                <th colspan="5" style="background-color: #FFC000;">RATA-RATA WAKTU PER TAHAP APPROVAL</th>
+            </tr>
+            <tr>
+                <th>Tahap</th>
+                <th>Jumlah Surat</th>
+                <th>Rata-rata Waktu (Hari)</th>
+                <th>SOP Standard (Hari)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+                                                <tr>
+                        <td>Waketum 3</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>ON TIME</td>
+                    </tr>
+                                    <tr>
+                        <td>Sekjen</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>ON TIME</td>
+                    </tr>
+                                    <tr>
+                        <td>Bendum</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>ON TIME</td>
+                    </tr>
+                                    <tr>
+                        <td>Pengadaan</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>ON TIME</td>
+                    </tr>
+                                    </tbody>
+    </table>
+    
+    <br><br>
+    
+    <!-- SHEET 4: Bottleneck -->
+        <table>
+        <thead>
+            <tr>
+                <th colspan="6" style="background-color: #E74C3C;">SURAT TERTAHAN (BOTTLENECK)</th>
+            </tr>
+            <tr>
+                <th>No</th>
+                <th>Nomor Surat</th>
+                <th>Perihal</th>
+                <th>Status</th>
+                <th>Urgency</th>
+                <th>Tertahan (Hari)</th>
+            </tr>
+        </thead>
+        <tbody>
+                                                                <tr>
+                        <td>1</td>
+                        <td>001/SRT/01/2026</td>
+                        <td>Pengajuan Beli Alat Gym</td>
+                        <td>Menunggu Waketum 3</td>
+                        <td>NORMAL</td>
+                        <td>3</td>
+                    </tr>
+                                    </tbody>
+    </table>
+    
+    <br><br>
+    
+    <!-- SHEET 5: Volume per Bulan -->
+        <table>
+        <thead>
+            <tr>
+                <th colspan="6" style="background-color: #3498DB;">VOLUME SURAT PER BULAN</th>
+            </tr>
+            <tr>
+                <th>Bulan</th>
+                <th>Total</th>
+                <th>Approved</th>
+                <th>Rejected</th>
+                <th>Pending</th>
+                <th>Revisi</th>
+            </tr>
+        </thead>
+        <tbody>
+                                                <tr>
+                        <td>Jan 2026</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                                <!-- Total Row -->
+                <tr style="background-color: #D5E8F7; font-weight: bold;">
+                    <td>TOTAL</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                    </tbody>
+    </table>
+    
+    <br><br>
+    
+    <!-- Footer -->
+    <table class="header-section">
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><em>Catatan: Data ini diekspor dari Sistem Approval Surat untuk keperluan analisis dan audit.</em></td>
+        </tr>
+        <tr>
+            <td><em>File ini dapat dibuka di Microsoft Excel atau diimpor ke Power BI untuk analisis lebih lanjut.</em></td>
+        </tr>
+    </table>
+</body>
+</html>

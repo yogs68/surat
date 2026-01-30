@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS attachments (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  surat_id BIGINT UNSIGNED NOT NULL,
+  original_name VARCHAR(255) NOT NULL,
+  stored_name VARCHAR(255) NOT NULL,
+  mime VARCHAR(120) NULL,
+  size INT UNSIGNED NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_attachments_surat_id (surat_id),
+  CONSTRAINT fk_attachments_surat
+    FOREIGN KEY (surat_id) REFERENCES surat(id)
+    ON DELETE CASCADE
+);
